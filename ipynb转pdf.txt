@@ -1,0 +1,9 @@
+jupyter nbconvert --to latex yourNotebookName.ipynb
+
+
+xelatex yourNotebookName.tex
+
+
+	\usepackage{fontspec, xunicode, xltxtra}
+	\setmainfont{Microsoft YaHei}
+	\usepackage{ctex}
